@@ -9,5 +9,5 @@ include:
     ref: josh-dev
 
 variables:
-  DEBUG: 1
-  AUTO_APPPROVE: true
+  DEBUG: 0
+  AUTO_APPPROVE: false
