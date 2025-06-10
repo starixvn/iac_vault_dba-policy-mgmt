@@ -9,5 +9,5 @@ include:
     ref: v2.0.0
 
 variables:
-  DEBUG: 1
-  AUTO_APPPROVE: false
+  DEBUG: 0
+  AUTO_APPPROVE: true
