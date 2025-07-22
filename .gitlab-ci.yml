@@ -9,5 +9,7 @@ include:
     ref: v2.0.0
 
 variables:
-  DEBUG: 0
+  VAULT_JWT_BACKEND: "jwt-gitlab"
+  TF_VAR_vault_role: "vault-dba-policy-mgmt"
   AUTO_APPPROVE: true
+  DEBUG: 0
