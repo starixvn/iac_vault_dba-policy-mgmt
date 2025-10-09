@@ -1,5 +1,5 @@
 env           = "klprod"
-vault_address = "https://vn-st-klp-vault.byb6181.com"
+vault_address = "https://vault-st-klp.starixplay.com"
 
 CIDR_OFFICE = ["10.0.0.0/8"]
 
