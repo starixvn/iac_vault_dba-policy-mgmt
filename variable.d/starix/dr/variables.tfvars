@@ -1,5 +1,5 @@
-env           = "kldr"
-vault_address = "https://vn-st-vault.byb6181.com"
+env           = "prod"
+vault_address = "https://vault-st.dr.starixplay.com"
 
 CIDR_OFFICE = ["10.0.0.0/8"]
 
@@ -7,27 +7,27 @@ CIDR_OFFICE = ["10.0.0.0/8"]
 roles = [
   {
     role_name       = "p-mssql-olympus",
-    policy_path     = "dba/kldr",
+    policy_path     = "dba/dr",
     policy_template = "p-mssql-olympus",
   },
   {
     role_name       = "p-mssql-rome",
-    policy_path     = "dba/kldr",
+    policy_path     = "dba/dr",
     policy_template = "p-mssql-rome",
   },
   {
     role_name       = "p-mssql-legion",
-    policy_path     = "dba/kldr",
+    policy_path     = "dba/dr",
     policy_template = "p-mssql-legion",
   },
   {
     role_name       = "p-mssql-wabi",
-    policy_path     = "dba/kldr",
+    policy_path     = "dba/dr",
     policy_template = "p-mssql-wabi",
   },
   {
     role_name       = "p-mssql-nexus",
-    policy_path     = "dba/kldr",
+    policy_path     = "dba/dr",
     policy_template = "p-mssql-nexus",
   },
 
