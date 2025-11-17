@@ -41,6 +41,10 @@ path "pontus/data/database/credentials/asv_cust" {
   capabilities = ["read", "list"]
 }
 
+path "pontus/data/database/credentials/wsv_oh" {
+  capabilities = ["read", "list"]
+}
+
 path "pontus/data/database/alias" {
   capabilities = ["read", "list"]
 }
