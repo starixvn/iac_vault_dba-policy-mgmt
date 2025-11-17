@@ -1,6 +1,7 @@
 #20241009@Brice: add policy for logins: Dot_Admin_Portal, portal, wsv_afinet, wsv_afinetv, wsv_lap, Affiliate_Api, ncb.admin, ncb.bot
 #20241009@Evan: add policy for logins: asv_cust
 #20250512@Evan: add policy for logins: vnteam2
+#20251117@Sol: add policy for logins: wsv_oh
 
 path "pontus/data/database/credentials/wsv_nap" {
   capabilities = ["read", "list"]
@@ -43,6 +44,10 @@ path "pontus/data/database/credentials/asv_cust" {
 }
 
 path "pontus/data/database/credentials/vnteam2" {
+  capabilities = ["read", "list"]
+}
+
+path "pontus/data/database/credentials/wsv_oh" {
   capabilities = ["read", "list"]
 }
 
