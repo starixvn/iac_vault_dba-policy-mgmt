@@ -3,7 +3,7 @@ vault_address = "https://vault-st-klu.starixuat.com"
 
 CIDR_OFFICE = ["10.0.0.0/8", "172.16.0.0/16"]
 
-#########ROLE for System/App
+########ROLE for System/App
 roles = [
   {
     role_name       = "p-mssql-olympus",
