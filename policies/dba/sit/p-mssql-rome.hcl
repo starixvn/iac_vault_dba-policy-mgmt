@@ -2,6 +2,7 @@
 #20241114@Evan: update policy for logins: Dot_Admin_Portal
 #20250228@Brice: add policy for logins: asv_cust
 #20250603@Sol: add policy for logins: asv_CashService,wsv_CashService
+#20251125@Evan: add policy for logins: vngrafana
 
 path "pontus/data/database/credentials/wsv_nap" {
   capabilities = ["read", "list"]
@@ -47,6 +48,11 @@ path "pontus/data/database/credentials/wsv_CashService" {
   capabilities = ["read", "list"]
 }
 
+path "pontus/data/database/credentials/vngrafana" {
+  capabilities = ["read", "list"]
+}
+
 path "pontus/data/database/alias" {
   capabilities = ["read", "list"]
 }
+
